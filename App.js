@@ -6,15 +6,6 @@ import { View as MotiView } from 'moti';
 export default function App() {
 	return (
 		<View style={styles.container}>
-			{/* Minimal Moti example */}
-			<MotiView
-				style={styles.button}
-				from={{ opacity: 0 }}
-				animate={{ opacity: 1 }}
-				transition={{ type: 'timing' }}
-			/>
-			{/* Touchable Moti Example
-			 
 			<View style={{ alignItems: 'center' }}>
 				<Text style={{ fontSize: 18, color: '#000', marginBottom: 5 }}>
 					TouchableScale
@@ -30,8 +21,7 @@ export default function App() {
 				<TouchableLift style={styles.button}>
 					<Text style={styles.text}>Press me!</Text>
 				</TouchableLift>
-			</View> 
-			*/}
+			</View>
 		</View>
 	);
 }
